@@ -18,7 +18,7 @@ const Reservation = () => {
     e.preventDefault()
     try {
       const { data } = await axios.post(
-        "https://foodheaven-1.onrender.com/api/v1/reservation/send",
+        "https://foodheaven-2.onrender.com/api/v1/reservation/send",
         {
           firstname,
           lastname,
